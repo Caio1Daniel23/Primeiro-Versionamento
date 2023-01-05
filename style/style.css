@@ -1,0 +1,110 @@
+/*Titulos*/
+
+h1{
+color: blue;    
+}
+
+
+/*----------------------------------------------------------------*/
+/*Cabeçalho(header)*/
+
+
+header{
+    display: flex;
+    background-color: rgb(1, 1, 34);
+    align-items: center;
+    justify-content: space-between;
+}
+
+ul{
+    list-style-type: none;
+    display: flex;
+    width: 500px;
+    justify-content: space-around;
+}
+
+a{
+    padding: 10px;
+    background-color: rgb(32, 58, 115);
+    color: aliceblue;
+    text-decoration: none;
+    border-radius: 10px;
+}
+
+a:hover {
+    background-color: rgb(63, 98, 178);
+}
+
+#logo{
+    width: 90px;
+}
+
+#pesquisar{
+    display: flex;
+}
+
+input{
+    margin-right: 10px;
+    outline: none;
+}
+
+/*----------------------------------------------------------------*/
+/*Corpo da pagina(main)*/
+
+main{
+    border: 1px solid black;
+    text-align: center;
+    padding: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+#imagem1{
+  width: 500px;  
+}
+
+table,th,td{
+    
+    border-collapse: collapse;
+    border: 1px solid black;
+    width: 600px;
+    height: 30px;
+    align-items: center;
+    background-color: rgb(206, 206, 228);
+    align-items: center;
+    
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+}
+
+table{
+    width: 100%;
+}
+
+.a1{
+    color: rgb(29, 5, 116);
+}
+
+.a3{
+    color: rgb(45, 15, 153);
+}
+
+.a4{
+    color: rgb(13, 107, 148);
+}
+
+.a5{
+    color: rgb(201, 197, 65);
+}
+
+.a6{
+    color: rgb(105, 105, 107);
+}
+
+.a7{
+    color: rgb(116, 5, 5);
+}
+
+
+/*----------------------------------------------------------------*/
+
